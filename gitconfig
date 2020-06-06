@@ -1,0 +1,27 @@
+[core]
+        editor = vim
+[merge]
+        tool = vimdiff
+        conflictStyle = diff3
+[diff]
+        tool = vimdiff
+        prompt = false
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
+[alias]
+        d = difftool
+        s = status
+        ss = status -s
+        m = commit
+        am = commit -am
+        mm = commit -m
+[color]
+       diff = auto
+       status = auto
+       branch = auto
+       interactive = auto
+       ui = true
+       pager = true
+

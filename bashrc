@@ -1,0 +1,1 @@
+bind "TAB:menu-complete"
