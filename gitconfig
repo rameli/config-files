@@ -17,6 +17,8 @@
         m = commit
         am = commit -am
         mm = commit -m
+        l = log -10 --oneline --graph
+        ll = log --oneline --graph
 [color]
        diff = auto
        status = auto
